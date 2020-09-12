@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MARTA</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <input type="checkbox" style="display: none;" id="ham-btn">
+        <div class="logo">
+          <h1>MARTA</h1>
+        </div>
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Lookbook</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Cart(0)</a></li>
+        </ul>
+        <label class="ham-btn" for="ham-btn">
+          <span class="icon"></span>
+        </label>
+      </nav>
+      <div class="headerr">
+        <div class="description">
+          <div class="container">
+            <div class="desc">
+              <small>₦500.00</small>
+              <h1>Ankara Tunic</h1>
+              <p>
+                The ankara we are offering traveled through amazing hands to
+                satisfy our bias customers, You!
+              </p>
+            </div>
+            <form class="details">
+              <label for="size">Size:</label>
+              <select id="size">
+                <option value="">Select Size</option>
+                <option value="5cm">5cm</option>
+                <option value="10cm">10cm</option>
+                <option value="20cm">20cm</option>
+              </select>
+              <label for="quantity">Quantity:</label>
+              <input type="number" id="quantity" value="1" />
+              <br />
+              <button>Add to cart</button>
+            </form>
+          </div>
+        </div>
+        <div class="overview">
+          <div class="conImg">
+            <img src="./images/img2.jpg" draggable="false" alt="Woman" />
+          </div>
+          <div class="conImg">
+            <img src="./images/img3.jpg" draggable="false" alt="Woman" />
+          </div>
+          <div class="conImg">
+            <img src="./images/img1.jpg" draggable="false" alt="Woman" />
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
